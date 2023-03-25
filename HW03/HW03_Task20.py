@@ -39,10 +39,9 @@ Eng = {1: 'AEIOULNSTR',
 
 def message():
        word = input(("Введите слово: "))
-       if word.strip():# проверяет слово на отсутствие пробелов и цифр
+       if word.strip():
               word= str(word.upper())
               return word
-
        else:
               print("Не верное слово!")
 
